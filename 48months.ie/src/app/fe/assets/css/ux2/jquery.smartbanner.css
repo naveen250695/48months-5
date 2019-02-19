@@ -1,0 +1,268 @@
+#smartbanner {
+    position: absolute;
+    left: 0;
+    top: -82px;
+    /*border-bottom: 1px solid #e8e8e8;*/
+    width: 100%;
+    /* height: 245px;*/
+    /* font-family: 'Helvetica Neue', sans-serif; 
+   
+   MON-127*/
+    font-family: Arial, sans-serif;
+    background: -webkit-linear-gradient(top, #f4f4f4 0%, #cdcdcd 100%);
+    background-image: -ms-linear-gradient(top, #F4F4F4 0%, #CDCDCD 100%);
+    background-image: -moz-linear-gradient(top, #F4F4F4 0%, #CDCDCD 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    -webkit-text-size-adjust: none;
+}
+
+#smartbanner, html.sb-animation {
+    -webkit-transition: all .3s ease;
+}
+
+#smartbanner .sb-container {
+    margin: 0 auto;
+}
+
+#smartbanner .sb-close {
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    display: block;
+    border: 2px solid #fff;
+    width: 14px;
+    height: 14px;
+    font-family: 'ArialRoundedMTBold', Arial;
+    /*MON-127*/
+    font-size: 28px;
+    line-height: 15px;
+    text-align: center;
+    color: #fff; 
+    /*background: #070707;*/
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 14px; 
+    /*box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);*/
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#smartbanner .sb-close:active {
+    font-size: 13px;
+    color: #aaa;
+}
+
+#smartbanner .sb-icon {
+    position: absolute;
+    left: 30px;
+    top: 8px;
+    display: block;
+    /*MON-127*/
+    width: 65px;
+    height: 65px;
+    background: rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    /*MON-127*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#smartbanner.no-icon .sb-icon {
+    display: none;
+}
+
+#smartbanner .sb-info {
+    position: absolute;
+    left: 98px;
+    top: 12px;
+    width: 77%;
+    font-size: 11.5px;
+    line-height: 1.2em;
+    /*font-weight: bold;*/
+    color: #6a6a6a;
+    /*MON-127*/
+    /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*/
+}
+
+#smartbanner #smartbanner.no-icon .sb-info {
+    left: 34px;
+}
+
+#smartbanner .sb-info strong {
+    display: block;
+    font-size: 27px;
+    color: #53af31;
+    line-height: 23px;
+    margin-left: 40px;
+    margin-top: 26px;
+    font-family: 'aldo', Arial, sans-serif;
+}
+
+#smartbanner .sb-info>span {
+    display: block;
+    /*margin:5px;*/
+}
+
+#smartbanner .sb-info em {
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+#smartbanner .sb-button {
+    position: absolute;
+    right: 43px;
+    top: 115px;
+    /*MON-127*/
+    /*border: 1px solid #bfbfbf;*/
+    padding: 0 10px;
+    min-width: 10%;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #6a6a6a;
+    background: -webkit-linear-gradient(top, #efefef 0%, #dcdcdc 100%);
+    text-transform: uppercase;
+    text-decoration: none;
+    /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*/
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6), 0 1px 0 rgba(255, 255, 255, 0.7) inset;
+}
+
+#smartbanner .sb-button:active, #smartbanner .sb-button:hover {
+    background: -webkit-linear-gradient(top, #dcdcdc 0%, #efefef 100%);
+}
+
+#smartbanner .sb-icon.gloss:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -1px;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 50%;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border-radius: 10px 10px 12px 12px;
+}
+
+#smartbanner.android {
+    border-color: #212228; 
+    /*MON-*/
+    /*background: #3d3d3d url('data:image/gif;base64,R0lGODlhCAAIAIABAFVVVf///yH5BAEHAAEALAAAAAAIAAgAAAINRG4XudroGJBRsYcxKAA7');
+    border-top: 5px solid #88B131;*/
+    box-shadow: none;
+    background: rgb(33, 34, 40);
+    ;
+}
+
+#smartbanner.android .sb-close {
+    border: 0;
+    width: 22px;
+    height: 42px;
+    line-height: 17px;
+    color: #737070;
+    padding-left: 223px;
+    top: 4px;
+}
+
+#smartbanner.android .sb-close:active {
+    color: #eee;
+}
+
+#smartbanner.android .sb-info {
+    color: #374044;
+    /*MON-127*/
+    /*text-shadow: 0 1px 2px #000;*/
+}
+
+#smartbanner.android .sb-info strong {
+    color: #53af31;
+}
+
+#smartbanner.android .sb-button {
+    min-width: 12%;
+    /*MON-127*/
+    /*border: 1px solid #DDDCDC;*/
+    padding-right: 47px;
+    color: #d1d1d1;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    min-height: 28px
+}
+
+#smartbanner.android .sb-button span {
+    /*text-align: center;
+    display: block;
+    padding: 0 10px;
+	//MON-127
+    //background-color: #42B6C9;
+    //background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#42B6C9), to(#39A9BB));
+    //background-image: -moz-linear-gradient(top, #42B6C9, #39A9BB);
+    text-transform: none;
+    text-shadow: none;
+    box-shadow: none;
+	/*MON-127*/
+    /*color: #2C7ACE;
+    font-size: 18px;
+    font-weight: normal; */
+    display: table;
+    width: 133px; 
+    /*height: 36px;*/
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    color: #fefefe;
+    background: #53af31;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: normal;
+    padding: 0;
+    line-height: 2.5em;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+#smartbanner.android .sb-button:active, #smartbanner.android .sb-button:hover {
+    background: none;
+}
+
+#smartbanner.android .sb-button:active span, #smartbanner.android .sb-button:hover span {
+    background: #2AC7E1;
+}
+
+#smartbanner.windows .sb-icon {
+    border-radius: 0px;
+}
+
+.rating img {
+    height: 10px;
+}
+
+.rating {
+    padding-left: 6px;
+}
+
+#author {
+    margin-left: 40px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-family: 'aldo', Arial, sans-serif;
+}
+
+#in-store {
+    margin-left: 63px;
+    margin-top: 3px;
+}
+
+#close {
+    padding-left: 194px;
+    padding-top: 6px;
+    font-size: 13px;
+}

@@ -1,0 +1,139 @@
+footer[data-role="main-portal-footer"] {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	z-index: 3;
+	background: #191c21;
+	overflow: hidden;
+	color: #697479;
+	padding: 25px 0;
+}
+
+footer[data-role="main-portal-footer"] .left {
+	float: left;
+	width: 650px;
+	position: 90px;
+}
+
+footer[data-role="main-portal-footer"] .right {
+	float: right;
+	width: 520px;
+	position: 50px;
+	width: 25%;
+}
+
+footer[data-role="main-portal-footer"] .clear {
+	width: 100%;
+	clear: both;
+}
+
+footer[data-role="main-portal-footer"] nav {
+	width: 100%;
+	clear: both;
+	margin-bottom: 100px;
+	padding: 0;
+	margin-right: 90px;
+}
+
+footer[data-role="main-portal-footer"] nav span.footer_heading {
+	display: block;
+	font-size: 16px;
+	color: #697479;
+	margin-bottom: 10px;
+	position: 50px;
+	width: 25%;
+}
+
+footer[data-role="main-portal-footer"] nav span.footer_heading a {
+	color: #697479;
+	text-decoration: none;
+}
+
+footer[data-role="main-portal-footer"] nav ul {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+footer[data-role="main-portal-footer"] nav ul li {
+	float: left;
+	list-style: none;
+	margin: 0 10px 0 0;
+	width: 125px;
+}
+
+footer[data-role="main-portal-footer"] nav li.facebook {
+	padding: 5px 0 10px 35px;
+	background: url() no-repeat 0 -200px;
+}
+
+footer[data-role="main-portal-footer"] nav li.twitter {
+	padding: 5px 0 10px 35px;
+	background: url() no-repeat 0 -150px;
+}
+
+footer[data-role="main-portal-footer"] nav ul li a {
+	color: #8e9ca2;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+footer[data-role="main-portal-footer"] nav ul li a:hover {
+	text-decoration: underline;
+}
+
+footer[data-role="main-portal-footer"] nav ul li ul {
+	margin-top: 10px;
+}
+
+footer[data-role="main-portal-footer"] nav ul li ul li {
+	float: none;
+}
+
+footer[data-role="main-portal-footer"] nav ul li ul li a {
+	font-weight: normal;
+}
+
+footer[data-role="main-portal-footer"] p {
+	font-size: 11px;
+	padding-bottom: 10px;
+	color: #697479;
+}
+
+footer div[data-role="award-container"] {
+	margin-top: 15px;
+	width: 381px;
+	
+}
+
+/*remaining styles*/
+
+.footer_heading{
+
+padding-right:120px;
+font-weight:bold;
+font-size:23px;
+
+
+
+}
+
+.help-footer-menu{
+
+float:right;
+
+-webkit-transform:translate(75%, -50%);
+
+text-align:right;
+
+font-size:30px;
+
+float:right;
+
+-webkit-margin-bottom-collapse: 20px
+
+
+}
+
+

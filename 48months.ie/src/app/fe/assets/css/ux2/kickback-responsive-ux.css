@@ -1,0 +1,359 @@
+@media only screen and (max-width: 767px) {
+    .header-image {
+        background-size: 100% auto;
+    }
+    article[data-role="main-portal-content-article"] .kickback-offer-2015 {
+        display: inline-block;
+        width: 100%;
+    }
+    .kickback-offer-2015 span.kbtext {
+        display: none;
+    }
+    .ux_kickback article[data-role="main-portal-content-article"] p.kbintro {
+        max-width: 100%;
+    }
+    .icon-friend {
+        padding-bottom: 30px;
+    }
+    #kbmoreRowOrCell {
+        @extend.Cell;
+        display: table-row;
+    }
+    #kbmoreRowOrCell {
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+        border-top: 2px solid #545f64;
+        display: block;
+    }
+    article>div.kbmorebox>p {
+        padding: 0px;
+        line-height: 90%;
+    }
+    /* Buttons */
+    .ux_theme input[type="submit"][data-style="control"] {
+        /* font-size:4vmin; */
+    }
+    /*  Brief White Description */
+    #main-body-content>span {
+        line-height: 4vw;
+    }
+    #ux_kickback_your-kickback article[data-role="main-portal-content-article"] p.kbintro {
+        font-size: vw;
+        line-height: 4vw;
+    }
+    #form_row___submit_amAMember>div.slot.clearfix.left {
+        width: 100%;
+    }
+    #ux_kickback_your-kickback article[data-role="main-portal-content-article"] p.kbintro {
+        font-size: 4vw;
+        font-family: aldo, sans-serif;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+    span.your-kickback-subheader {
+        display: none;
+    }
+    div.your-kickback-header {
+        margin-top: 20%;
+        text-align: center;
+    }
+    div.your-kickback-recruit-members {
+        text-align: center;
+    }
+    div.your-kickback-recruit-members>div.header, div.your-kickback-order-sims>div.header {
+        width: 80% ;
+        font-family: aldo, sans-serif;
+        font-size: 10vw;
+        color: #cbcbcb;
+        margin: 4% 0 2% 0;
+    }
+    div.your-kickback-recruit-members>div, div.your-kickback-order-sims>div {
+        font-size: 3vw;
+    }
+    div.description {
+        display: none;
+    }
+    #form_row___submit_amAMember>div.slot.clearfix.left {
+        float: right;
+    }
+    #form_row___submit_amAMember>div.slot.clearfix.right {
+        float: none;
+    }
+    div.your-kickback-recruit-members>div.greenHeader, div.your-kickback-order-sims>div.greenHeader {
+        font-size: 5vw;
+        font-weight: bold;
+        margin: 30px 0 0 0;
+    }
+    .your-kickback-content {
+        font-size: 3vw;
+        text-align: center;
+        line-height: 150%;
+    }
+    #input_order_kickback_sims, #input_share_my_sim_order {
+        margin-top: 5%;
+        width: 100%
+    }
+    #your-kickback_order_sims, div.brief, div.Cell.kbEarningsRight>p {
+        display: none;
+    }
+    .kbEarningsRight {
+        display: none;
+    }
+    /* your-kickback page */
+    div[data-role="alert"].kickback.kickback-reqruits .alert-cell p.price {
+        font-size: 7vw;
+    }
+    .kbEarnGreen, .kbEarnMethod {
+        font-size: 2em;
+        float: right;
+    }
+    #form_row___submit_amAMember.form_your_kickback_orders>div.slot.clearfix.right {
+        max-width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+    #form_row___submit_amAMember>div.slot.clearfix.right {
+        padding: 0;
+        margin: 0;
+    }
+    .kbEarnCell {
+        width: 45%;
+    }
+    .your-kickback-hz-rule .kbEarningsRight {
+        display: block;
+    }
+    #kbearnings>div>div>div.Cell.kbEarningsRight>div {
+        display: none;
+    }
+    #ux_kickback_your-kickback main[data-role="main-portal-content"] article[data-role="main-portal-content-article"] p.info {
+        line-height: 7vw;
+        margin: 0;
+        padding: 0;
+    }
+    .kbmorebox {
+        padding-top: 3vw;
+    }
+    #your-kickback-order-header>p {
+        padding: 0px;
+    }
+    article[data-role="main-portal-content-article"].kickback-get-cash dt.kickback-dt {
+        margin-left: 30vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    table.kbOrders.hideNm td.nm, table.kbOrders.hideNm td.recruits-split, table.kbOrders.hideAr td.recruits-split, table.kbOrders.hideAr td.ar {
+        display: none;
+    }
+    table.kbOrders.hideAr activateRecruits, table.kbOrders.hideAr noMembershipRecruits, table.kbOrders.hideNm activateRecruits, table.kbOrders.hideNm noMembershipRecruits {
+        display: block;
+    }
+    table.kbOrders.hideNm hideNm headerRule {
+        margin-left: none;
+    }
+    table.kbOrders.hideNm hideAr headerRule {
+        margin-right: none;
+    }
+    article[data-role="main-portal-content-article"] table.kbOrders td.kbOrderHeader {
+        font-size: 4vw;
+    }
+    table.kbOrders.hideNm #activateRecruits, table.kbOrders.hideNm td.recruits-split-header1 {
+        border-top: 1px solid #8e9ca2;
+    }
+    table.kbOrders.hideAr #activateRecruits, table.kbOrders.hideAr td.recruits-split-header1, table.kbOrders.hideNm #noMembershipRecruits, table.kbOrders.hideNm td.recruits-split-header2 {
+        border-bottom: 1px solid #8e9ca2;
+    }
+    table.kbOrders.hideNm td.recruits-split-header1 {
+        border-right: 1px solid #8e9ca2;
+        border-bottom: 1px solid #8e9ca2;
+    }
+    table.kbOrders.hideAr td.recruits-split-header2 {
+        border-left: 1px solid #8e9ca2;
+        border-bottom: 1px solid #8e9ca2;
+    }
+    table.kbOrders.hideAr #noMembershipRecruits, table.kbOrders.hideAr td.recruits-split-header2 {
+        border-top: 1px solid #8e9ca2;
+        border-bottom: 1px solid #8e9ca2;
+    }
+    article[data-role="main-portal-content-article"] table.kbOrders td.kbOrderDesc {
+        padding: 0px 5em 0 5em;
+    }
+    table.kbOrders.hideNm #activateRecruits, table.kbOrders.hideNm td.recruits-split-header1, table.kbOrders.hideAr #noMembershipRecruits, table.kbOrders.hideAr td.recruits-split-header2 {
+        background: #8e9ca2;
+        color: white;
+    }
+    #activateRecruits, #noMembershipRecruits {
+        border-bottom: 1px solid #8e9ca2;
+    }
+}
+
+@media only screen and (min-width: 565px) and (max-width: 767px) {
+    article[data-role="main-portal-content-article"] table.kbOrders td.kbOrderDesc {
+        padding: 0;
+    }
+    article[data-role="main-portal-content-article"] table.kbOrdersMobile td.kbMobileHeader {
+        color: #53af31;
+    }
+    #your-kickback-order-header>p, #your-kickback-share-header>p {
+        padding: 0;
+    }
+    article[data-role="main-portal-content-article"] table td.kbtext.icon-sim {
+        padding-left: 1em;
+    }
+    article[data-role="main-portal-content-article"] table td.kbtext.icon-paid {
+        padding-right: 1em;
+    }
+    #shareClipboardCopy {
+        font: 700 15px sans-serif;
+    }
+    .kickback-share-2015 {
+        width: 100%;
+        margin: 10px;
+    }
+    .icon-sim>img {
+        margin-left: 0px;
+    }
+    .icon-paid>img {
+        /* margin-right:0px; */
+    }
+    .mobileShow {
+        display: inherit;
+    }
+    span.periodText, .mobileHide, .recruits-split {
+        display: none;
+    }
+    main[data-role="main-portal-content"] div.backKickbackArrow {
+        padding-top: 30px
+    }
+    main[data-role="main-portal-content"] div.backKickbackArrow {
+        padding: 10px;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    main[data-role="main-portal-content"] div.backKickbackArrow:after {
+        right: 85%;
+        top: 65%;
+    }
+    .kblink, .mobileHide, span.periodText, .recruits-split {
+        display: none;
+    }
+    main[data-role="main-portal-content"] div.kbEarnArrow {
+        display: inline-block;
+        position: relative;
+        background: none;
+        padding: 10px 0;
+    }
+    main[data-role="main-portal-content"] div.kbEarnArrow a:after {
+        display: block;
+    }
+    main[data-role="main-portal-content"] div.kbEarnArrow {
+        text-align: left;
+    }
+    article[data-role="main-portal-content-article"] dt span {
+        top: 0.2em;
+        right: 20%;
+    }
+    article[data-role="main-portal-content-article"].kickback-get-cash dt.kickback-dt {
+        margin-left: 30vw;
+    }
+    #ux_kickback_get-cash .content-form .form-row-inner {
+        text-align: center;
+        padding-right: 10px;
+    }
+    .content-form .form-row label {
+        float: left;
+        width: 30%;
+        text-align: right;
+        margin: 7px 15px 0 0;
+        color: #fff;
+    }
+    .content-form .form-row input[type="password"], .content-form .form-row input[type="text"] {
+        float: left;
+        padding: 7px 10px;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    #shareClipboardCopy {
+        font-size: 3vmin;
+    }
+    table.kbOrdersNonMobile {
+        display: none;
+    }
+    table.kbOrdersMobile {
+        display: table;
+    }
+    article[data-role="main-portal-content-article"] table.kbOrders td.kbOrderDesc {
+        padding: 0;
+    }
+    article[data-role="main-portal-content-article"] table.kbOrdersMobile td.kbMobileHeader {
+        color: #53af31;
+    }
+    #your-kickback-share-table>tbody>tr:nth-child(1)>td.icon>img {
+        max-width: 230px;
+        max-height: 95px;
+        width: auto;
+        height: auto;
+    }
+    #your-kickback-order-header>p, #your-kickback-share-header>p {
+        padding: 0;
+    }
+    article[data-role="main-portal-content-article"] table td.kbtext.icon-sim {
+        padding-left: 1em;
+    }
+    article[data-role="main-portal-content-article"] table td.kbtext.icon-paid {
+        padding-right: 1em;
+    }
+    .kickback-share-2015 {
+        width: 100%;
+        margin: 10px;
+    }
+    .icon-sim>img {
+        margin-left: 0px;
+    }
+    .icon-paid>img {
+        margin-right: 0px;
+    }
+    .mobileShow {
+        display: inherit;
+    }
+    .kblink, .mobileHide, span.periodText, .recruits-split {
+        display: none;
+    }
+    #your-kickback-order-header>div.headerRule {
+        width: 100%;
+    }
+    main[data-role="main-portal-content"] div.backKickbackArrow {
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    main[data-role="main-portal-content"] div.backKickbackArrow:after {
+        right: 85%;
+        top: 65%;
+    }
+    main[data-role="main-portal-content"] div.kbEarnArrow {
+        display: inline-block;
+        position: relative;
+        background: none;
+        padding: 10px 0;
+    }
+    main[data-role="main-portal-content"] div.kbEarnArrow a:after {
+        display: block;
+    }
+    main[data-role="main-portal-content"] div.kbEarnArrow {
+        text-align: left;
+    }
+    article[data-role="main-portal-content-article"] dt span {
+        top: 0.2em;
+        right: 20%;
+    }
+    article[data-role="main-portal-content-article"].kickback-get-cash dt.kickback-dt {
+        margin-left: 20vw;
+    }
+    #ux_kickback_get-cash .content-form .form-row-inner {
+        text-align: center;
+        padding-right: 10px;
+    }
+}

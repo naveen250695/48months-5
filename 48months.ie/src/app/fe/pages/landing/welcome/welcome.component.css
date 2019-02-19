@@ -1,0 +1,224 @@
+.container{
+
+margin-top:50px;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+h2{
+    color: #53af31;
+}
+.mega {
+    font-size: 45px;
+    line-height: normal;
+}
+.ux_theme .highlight {
+    color: #53af31;
+}
+
+:focus {
+    outline: 0
+}
+
+::-moz-focus-inner {
+    border: 0
+}
+
+.ux_theme input, .ux_theme textarea, .ux_theme select {
+    color: #333
+}
+
+.ux_theme input[placeholder] {
+    color: #8e9ca2
+}
+
+.ux_theme h1, .ux_theme h2, .ux_theme h3, .ux_theme h4, .ux_theme h5, .ux_theme h6 {
+    font-family: aldo-semibold, helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+.ux_theme form.inline_form div[data-role="row_group"].active, .ux_theme form.block_form div[data-role="row_group"].active {
+    background-color: #f1f1f1;
+    border-top-style: solid;
+    border-top-width: 0;
+    border-top-color: #c6c6c6;
+    border-bottom-style: solid;
+    border-bottom-width: 0;
+    border-bottom-color: #c6c6c6;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 5px
+}
+
+.ux_theme form.block_form .row .field_errors, .ux_theme form.inline_form .row .field_errors {
+    color: #e8122e;
+    font-weight: bold;
+    font-size: 13px
+}
+
+.ux_theme .chosen-container .chosen-results li.active-result {
+    color: #000
+}
+
+.ux_theme .chosen-container .chosen-results li.highlighted {
+    color: #fff;
+    background-color: #53af31;
+    background-image: none
+}
+
+.ux_theme .lightest {
+    color: #fff
+}
+
+.ux_theme .highlight {
+    color: #53af31
+}
+
+.ux_theme .darkest {
+    color: #000
+}
+
+.ux_theme a.highlight:hover {
+    color: #60bf3d
+}
+
+.ux_theme .standout {
+    color: #d0dfe6
+}
+
+.ux_theme a.standout:hover {
+    color: #cce5f0
+}
+
+.ux_theme .error {
+    color: #ed1c24
+}
+
+.ux_theme div[data-role="sidebar-content"] ul[data-role="list"] li {
+    list-style: default;
+    padding: 5px 0 5px 0
+}
+
+.ux_theme div[data-col="sidebar"] ul[data-role="list"] {
+    list-style-type: none
+}
+
+.ux_theme div[data-col="sidebar"] ul[data-role="list"] li {
+    margin-bottom: 8px
+}
+
+
+
+.ux_theme div[data-role="sidebar-content"] ul[data-role="list"] li:before, .ux_theme div[data-role="sidebar-content"] ul[data-role="list"] li:after {
+    content: "";
+    display: table
+}
+
+.ux_theme div[data-role="sidebar-content"] ul[data-role="list"] li:after {
+    clear: both
+}
+
+.ux_theme div[data-col="sidebar"] ul[data-role="list"] li span[data-role="content"] {
+    float: left;
+    width: 89.5%
+}
+
+.ux_theme .boxed_content {
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 25px
+}
+
+.ux_theme .boxed_content h4 {
+    display: block;
+    margin-bottom: 15px
+}
+
+.ux_theme .boxed_content .section {
+    margin-bottom: 30px
+}
+
+.ux_theme .boxed_content .section:last-child {
+    margin-bottom: 0
+}
+
+.ux_theme .table {
+    display: table;
+    width: 100%
+}
+
+.ux_theme .table .row {
+    display: table-row
+}
+
+.ux_theme .table .row .cell {
+    display: table-cell
+}
+
+.ux_theme .table.split_3>.row>.cell {
+    width: 29.3%;
+    padding: 0 2% 0 2%
+}
+
+.ux_theme .table.split_3>.row>.cell:first-of-type {
+    width: 32.3%;
+    padding-left: 0
+}
+
+.ux_theme .table.split_3>.row>.cell:last-of-type {
+    width: 32.3%;
+    padding-right: 0
+}
+
+.ux_theme .table.split_2_left>.row>.cell {
+    padding: 0 2% 0 2%
+}
+
+.ux_theme .table.split_2_left>.row>.cell:first-of-type {
+    width: 65.6%;
+    padding-left: 0
+}
+
+.ux_theme .table.split_3>.row>.cell:last-of-type {
+    width: 32.3%;
+    padding-right: 0
+}
+
+.ux_theme .saved_card_details .table {
+    width: 210px;
+    font-size: 13px;
+    margin-top: 10px
+}
+
+.ux_theme .saved_card_details .table .row .cell {
+    padding-top: 5px
+}
+
+.ux_theme .dark_box {
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    padding: 8% 1% 8% 1%;
+    line-height: 1.8em
+}
+
+.ux_theme .table.qty-control>.row input {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #fff;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 18px;
+    text-align: center;
+    text-shadow: none;
+    width: 29px
+}
+
+.ux_theme .table.qty-control>.row>.cell:first-of-type {
+    padding-right: 6px;
+    text-align: left
+}
+
